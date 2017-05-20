@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<link rel="stylesheet" href="/python/templates/css/font-awesome-4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style>
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+#container-div {
+	width: 80%;
+	height: 80%;
+	border-radius: 5px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+}
+
+#header-div {
+	width: 80%;
+}
+
+#toolbar-div {
+	width: 80%;
+	height: 20px;
+	background: #C0C0C0;
+}
+
+#toolbar-span {
+	float: right;
+}
+
+#info-span {
+	float: left;
+}
+
+#content-div-1 {
+	
+}
+
+#content-div-2 {
+	
+}
+
+#content-div-3 {
+	
+}
+
+.content-div {
+	width: 80%;
+	border-radius: 5px;
+    background: #808080;
+    padding: 10px;
+    margin-top: 5px;	
+}
+
+.div-centered {	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.div-left {
+	margin-right: auto;
+}
+
+.div-right {
+	margin-left: auto;
+}
+
+.my-icons {
+	cursor: pointer;
+}
+
+</style>
+
+<script type="text/javascript">
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<h1>Wow, %s! This actually works.</h1>
+
+<select id="dropDownTest">
+<option class="testOption" value="1">First Value</option>
+<option class="testOption" value="2">Second Value</option>
+</select>
+
+
+<div id="container-div" class="div-centered">
+	
+	<div id="toolbar-div" class="div-centered">
+		<span id="info-span"></span>
+		<span id="toolbar-span">
+			<i id="arrowLeft" class="my-icons fa fa-arrow-left" title="Previous record"></i>
+			<i id="arrowRight" class="my-icons fa fa-arrow-right" title="Next record"></i>
+			<i id="viewTypeIcon" class="my-icons fa fa-pencil-square-o" title="Edit record"></i>
+		</span>
+	</div>
+	
+	<div id="content-div-1" class="content-div div-centered"></div>	
+	<div id="content-div-2" class="content-div div-centered"></div>
+	<!--
+	<div id="content-div-3" class="content-div div-right">Right</div>
+	-->
+</div>
+
+</body>
+
+</html>
